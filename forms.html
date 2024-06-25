@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <form encrypt="multipart/form-data">
+            <fieldset>
+                <legend> personal details</legend>
+                <label for="Name"> Enter username</label>
+                <input type="text" placeholder="user_name"name="Name" required/>
+                <br/>
+                <label for="Age"> Enter your age </label>
+                <input type="number" placeholder="age" name="age" required/> <br/>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male"><br/>
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" value="female">
+            </fieldset>
+                <input type="file" placeholder="file" name="file" required/>
+                <input type="submit"/>
+                <input type="reset"/>
+                <br/>
+            Select cars 
+            <select name="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+            </select>
+            <br/>
+            Address 
+            <textarea></textarea>
+        </form>
+    </body>
+</html>
